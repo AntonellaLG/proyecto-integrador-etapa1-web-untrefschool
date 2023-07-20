@@ -156,7 +156,7 @@ footer{
 
 @media (min-width: 1200px){ /*Nest Hub Max*/
     body{
-        font-size: 19px; /*2.3rem*/
+        font-size: 1.2rem; /*19px*/
         min-height: 100vh; /*para que la imagen ocupe el 100% de la ventana*/
         background-image: url("../img/bannerContacto.jpg");
         background-repeat: no-repeat;
@@ -166,7 +166,7 @@ footer{
     }
 
     a{
-        font-size: 21px;
+        font-size: 1.3rem; /*21px*/
     }
 
     .container{
@@ -235,7 +235,7 @@ footer{
         justify-content: center;
         font-family: 'Poppins', sans-serif;
         width: 40%;
-        font-size: 22px;
+        font-size: 1.37rem; /*22px*/
         color: #EFF5F5;
         background-color: #1F8A70;
         border: none;
@@ -252,15 +252,15 @@ footer{
     }*/
 
     .pie{
-        font-size: 25px;
+        font-size: 1.5rem; /*25px*/
     }
 
     .contacto{
-        font-size: 18px;
+        font-size: 1.12rem; /*18px*/
     }
 
     i{
-        font-size: 22px;
+        font-size: 1.37rem; /*22px*/
     }
 
     .boton-arriba{
@@ -270,7 +270,7 @@ footer{
 
     #derechos{
         text-align: center;
-        font-size: 16px;
+        font-size: 1rem; /*16px*/
         padding: 10px;
         bottom: 0;
         left: 0;
