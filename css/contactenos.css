@@ -23,6 +23,11 @@ html{
 body{  
     font-family: 'Poppins', sans-serif;
     color: #00425A;
+    background-image: url("../img/bannerContacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center center; /*posiciones en el eje x e y resp*/
+    background-attachment: fixed; /*para que al scrollear no se mueva la imagen de fondo*/
+    background-size: cover;
 }
 
 #encabezado{
@@ -36,6 +41,19 @@ body{
     position: fixed;
     top: 0;
     z-index: 1000;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFF5F5;
+}
+
+#formularioContacto{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
 
 /*#banner{
@@ -99,18 +117,18 @@ footer{
         top: 100px;
     }
 
-    .contacto{
-        font-size: 0.75rem;
+    .pie{
+        font-size: 0.8rem;
     }
 
-    .pie{
-        font-size: 1rem;
+    .contacto{
+        font-size: 0.7rem;
     }
 
     #derechos{
         /*display: flex;
         justify-content: center;*/
-        font-size: 9px;
+        font-size: 0.6rem;
         /*width: 250%;*/
         margin-bottom: auto;
     }
@@ -137,32 +155,27 @@ footer{
         top: 100px;
     }
 
-    .contacto{
+    .pie{
         font-size: 1.1rem;
     }
 
-    .pie{
-        font-size: 1.4rem;
+    .contacto{
+        font-size: 0.8rem;
     }
 
     #derechos{
         /*display: flex;
         justify-content: center;*/
-        font-size: 15px;
+        font-size: 0.65rem;
         /*width: 250%;*/
         margin-bottom: auto;
     }  
 }
 
-@media (min-width: 1200px){ /*Nest Hub Max*/
+@media (min-width: 1200px){
     body{
         font-size: 1.2rem; /*19px*/
         min-height: 100vh; /*para que la imagen ocupe el 100% de la ventana*/
-        background-image: url("../img/bannerContacto.jpg");
-        background-repeat: no-repeat;
-        background-position: center center; /*posiciones en el eje x e y resp*/
-        background-attachment: fixed; /*para que al scrollear no se mueva la imagen de fondo*/
-        background-size: cover;
     }
 
     a{
@@ -180,19 +193,6 @@ footer{
         padding: 10px;
         top: 100px;
     }*/
-
-    h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #EFF5F5;
-    }
-
-    #formularioContacto{
-        display: flex;
-        justify-content: center;
-        padding: 15px;
-    }
 
     form{
         background-color: #EFF5F5;
