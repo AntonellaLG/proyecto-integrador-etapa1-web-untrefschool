@@ -80,7 +80,7 @@ textarea{
 }
 
 .field{
-    /*300px*/
+    width: 100%;
    border-radius: 20px;
 }
 
@@ -138,7 +138,7 @@ footer{
     }
 
     #encabezado{
-        height: 1.5rem; /*60px*/
+        height: 1.5rem;
     }
 
     a{
@@ -146,27 +146,22 @@ footer{
     }
 
     .container{
-        margin-top: 45px; /*para que toda la pag baje y se vea el menu completo*/
+        margin-top: 45px;
     }
 
     form{
-        padding: 10px;/**/
+        padding: 10px;
         width: 15rem;
-        border-radius: 20px;/**/
+        border-radius: 20px;
     }
 
     span{
         padding-left: 0.1em;
     }
 
-    .field{
-       width: 13.5rem;
-       height: 1rem;
-    }
-
     button{
         width: 20%;
-        font-size: 0.6rem; /*10px*/
+        font-size: 0.6rem;
     }
 
     footer{
@@ -205,12 +200,12 @@ footer{
 
 @media (min-width: 768px){
     body{
-        font-size: 1.05rem; /*19px*/
+        font-size: 1.05rem;
         /*min-height: 100vh; para que la imagen ocupe el 100% de la ventana*/
     }
 
     #encabezado{
-        height: 2.5rem; /*60px*/
+        height: 2.5rem;
     }
 
     a{
@@ -218,12 +213,12 @@ footer{
     }
 
     .container{
-        margin-top: 60px; /*para que toda la pag baje y se vea el menu completo*/
+        margin-top: 60px;
     }
 
     form{
         padding: 15px;
-        width: 15.5rem;/*300px*/
+        width: 17rem;
     }
 
     span{
@@ -231,9 +226,7 @@ footer{
     }
 
     .field{
-        /*300px*/
-        width: 17rem;
-        height: 1.3rem;
+        width: 100%;
     }
 
     button{
@@ -271,16 +264,16 @@ footer{
 
 @media (min-width: 1200px){
     body{
-        font-size: 1.2rem; /*19px*/
+        font-size: 1.2rem;
         min-height: 100vh; /*para que la imagen ocupe el 100% de la ventana*/
     }
 
     #encabezado{
-        height: 3.75rem; /*60px*/
+        height: 3.75rem;
     }
 
     a{
-        font-size: 1.3rem; /*21px*/
+        font-size: 1.3rem;
     }
 
     .container{
@@ -289,27 +282,20 @@ footer{
 
     form{
         padding: 20px;
-        width: 18.75rem;/*300px*/
+        width: 18.75rem;
     }
 
     span{
         padding-left: 0.25em;
     }
 
-    #mensaje{
-        /*min-height: 300px;
-        max-height: 600px;*/
-        resize: vertical;
-    }
-
     .field{
-        /*300px*/
        height: 100%;
     }
 
     button{
         width: 40%;
-        font-size: 1.37rem; /*22px*/
+        font-size: 1.37rem;
     }
 
     /*#boton-enviar{
@@ -328,7 +314,7 @@ footer{
     }
 
     .pie{
-        font-size: 1.5rem; /*25px*/
+        font-size: 1.5rem;
     }
 
     /*.contacto{
@@ -345,6 +331,6 @@ footer{
     }*/
 
     #derechos{
-        font-size: 1rem; /*16px*/
+        font-size: 1rem;
     } 
 }
