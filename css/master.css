@@ -1,0 +1,532 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #00425A;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{  
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    background-color: #EFF5F5;
+    color: #181823;
+}
+
+#encabezado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    color: #00425A;
+    background-color: #EFF5F5;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+#menu{
+    width: 100%;
+    z-index: 1000;
+}
+
+#opciones{
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+}
+
+ul#opciones li a{
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner{
+    position: relative;
+}
+
+#titulo{
+    font-family: 'Belanosima', sans-serif;
+    position: absolute;
+    color: #FC7300;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+#opcion{
+    color: #FC7300;
+    font-family: 'Belanosima', sans-serif;
+    font-size: auto;
+    margin: 10px;
+    z-index: 100;
+}
+
+p{
+    margin: 10px;
+    color: #181823;
+}
+
+#noticias{
+    color: #00425A;
+    text-align: center;
+}
+
+section#noticias article{
+    padding: 10px;
+}
+
+.foto-noticia{
+    /*display: inline-block;*/
+    height: auto;
+    /*max-width: 100%;*/
+    /*vertical-align: middle;
+    border-style: none;*/
+    /*background-color: #EFF5F5;*/
+    /*box-sizing: border-box;*/
+    padding: 10px;
+    /*background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;*/
+}
+
+.fecha-noticia{
+    background-color: #1F8A70;
+    color: #EFF5F5;
+    font-size: auto;
+    padding: 5px;
+    top: 20px;
+}
+
+#boton-noticias{
+    width: 100%;
+    justify-content: center;
+    color: #1F8A70;
+    border-color: #1F8A70;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #1F8A70;
+    transition: all .3s;
+}
+
+#boton-noticias:hover{
+    color: #EFF5F5;
+    background-color: #1F8A70;
+}
+
+.contacto{
+    color: #EFF5F5;
+}
+
+.pie{
+    color: #EFF5F5;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    background-color: #181823;
+    text-align: center;
+    padding: 10px;
+}
+
+#derechos{
+    color: #FC7300;
+    width: 100%;
+}
+
+/*    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 999;*/
+
+@media (min-width: 320px){    
+    body{
+        font-size: 0.8rem; /*13px*/
+    }
+
+    ul#opciones li a{
+        font-size: 0.95rem; /*15px*/
+    }
+
+    /*#encabezado{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+        color: #00425A;
+        background-color: #EFF5F5;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }*/
+    
+    ul#opciones li a{ /*nuevo*/
+        font-size: 0.6rem; /*10px*/
+    }
+
+    #opcion{ /*nuevo*/
+        font-size: 1rem; /*17px*/
+    }
+
+    #opciones{ /*nuevo*/
+        display: flex;
+        justify-content: space-between;
+        text-align:center;
+    }
+
+
+    .container{
+        margin-top: 45px; /*para que toda la pag baje y se vea el menu completo*/
+    }
+
+    #titulo{
+        font-size: 1.1rem; /*18px*/
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+        top: 100px;
+    }
+
+    .item{
+        scroll-margin-top: 8ex; /*para que al presionar una opcion, cuando la pagina scrolea no me tape con el menu el nombre de la opcion seleccionada*/
+    }
+
+    #quienes-somos{
+        justify-content: center; 
+    }
+
+    #nosotros{
+        width: 100%;
+    }
+    
+    #foto-escuela{
+        /*padding: 10px;
+        width: 650px;
+        height: 300px;*/
+        width: 100%;
+        margin: 15px;
+        object-fit: cover;
+    }
+
+    .circulo{
+        display: flex;
+        justify-content: center;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    figcaption{
+        font-size: 80%;
+        border-left: 30px; /*chequear si hace falta*/
+        text-align: center;
+    }
+
+    #propuestas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #noticias{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+    }
+
+    .nota{
+        font-size: 0.8rem; /*13px*/
+    }
+
+    /*.foto-noticia{ /*nuevo
+        width: 100%;
+        height: 225px;
+        object-fit: cover;
+    }*/
+
+    #boton-noticias{
+        width: 30%;
+        font-size: 0.7rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    #boton-noticias:hover{
+        cursor: pointer;
+    }
+
+    .pie{
+        font-size: 1rem; /*17px*/
+    }
+
+    .contacto{
+        font-size: 0.75rem; /*12px*/
+    }
+
+    #derechos{
+        font-size: 0.6rem; /*10px*/
+        /*margin-bottom: auto;*/
+    }
+}
+
+@media (min-width: 768px){ /*iPad Air hasta Surface Pro7   Nest Hub*/
+    body{
+        font-size: 0.8rem; /*17px aprox*/
+    }
+
+    ul#opciones li a{
+        font-size: 1rem; /*20 px aprox*/
+    }
+
+    .container{
+        margin-top: 3.75; /*para que toda la pag baje y se vea el menu completo*/
+    }/*60*/
+
+    #titulo{
+        font-size: 2.5rem; /*48px*/
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        top: 100px;
+    }
+
+    .item{
+        scroll-margin-top: 8.5ex; /*para que al presionar una opcion, cuando la pagina scrolea no me tape con el menu el nombre de la opcion seleccionada*/
+    }
+
+    #quienes-somos{
+        display: flex;
+        justify-content: center; 
+    }
+
+    #nosotros{
+        width: 55%;
+    }
+    
+    #foto-escuela{
+        padding: 10px;
+        width: 650px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .circulo{
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    figcaption{
+        font-size: 92%;
+        /*border-left: 30px;*/
+        text-align: center;
+    }
+
+    #propuestas{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    #noticias{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+    }
+
+    #noticia1{
+        grid-column: 1/2;
+    }
+
+    #noticia2{
+        grid-column: 2/3;
+    }
+
+    #noticia3{
+        grid-column: 3/4;
+    }
+
+    #noticia4{
+        grid-column: 2/3;
+    }
+
+    #boton-noticias{
+        width: 50%;
+        font-size: 0.7rem;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #boton-noticias:hover{
+        cursor: pointer;
+    }
+
+    .pie{
+        font-size: 1.1rem;
+    }
+
+    .contacto{
+        font-size: 0.8rem;
+    }
+
+    #derechos{
+        font-size: 0.65rem; /*15px*/
+        /*margin-bottom: auto;*/
+    }    
+}
+
+@media (min-width: 1200px){ /*Nest Hub Max*/
+    body{
+        font-size: 1.18rem; /*19px*/
+    }
+
+    ul#opciones li a{
+        font-size: 1.3rem; /*21px*/
+    }
+
+    #opcion{
+        font-size: 1.6rem; /*25px*/
+    }
+
+    .container{
+        margin-top: 3.75rem; /*para que toda la pag baje y se vea el menu completo*/
+    }/*60px*/
+
+    #titulo{
+        font-size: 3rem;
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        top: 100px;
+    }
+
+    .item{
+        scroll-margin-top: 6.5ex; /*para que al presionar una opcion, cuando la pagina scrolea no me tape con el menu el nombre de la opcion seleccionada*/
+    }
+
+    #quienes-somos{
+        display: flex;
+        justify-content: center; 
+    }
+
+    #nosotros{
+        width: 55%;
+    }
+    
+    #foto-escuela{
+        padding: 10px;
+        width: 650px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .circulo{
+        display: flex;
+        justify-content: center;
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    figcaption{
+        font-size: 100%;
+        border-left: 30px; /*chequear si hace falta*/
+        text-align: center;
+    }
+
+    #propuestas{
+        display: grid;
+        grid-template-areas: repeat(3,auto);
+    }
+
+    #noticia1{
+        grid-column: 1/2;
+    }
+
+    #noticia2{
+        grid-column: 2/3;
+    }
+
+    #noticia3{
+        grid-column: 3/4;
+    }
+
+    #noticia4{
+        grid-column: 2/3;
+    }
+
+    .nota{
+        font-size: 1.19rem; /*19px*/
+    }
+
+    .foto-noticia{
+        width: 100%;
+        height: 325px;
+        object-fit: cover;
+    }
+
+    #boton-noticias{
+        width: 70%;
+        font-size: 1rem;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+
+    #boton-noticias:hover{
+        cursor: pointer;
+    }
+
+    .pie{
+        font-size: 1.5rem; /*25px*/
+    }
+
+    .contacto{
+        font-size: 1.19rem; /*18px*/
+    }
+
+    #derechos{
+        font-size: 1rem; /*16px*/
+    }
+    
+    /*    position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+        z-index: 999;*/
+}
