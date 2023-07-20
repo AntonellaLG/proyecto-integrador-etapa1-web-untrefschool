@@ -169,7 +169,7 @@ footer{
     }
 
     ul#opciones li a{
-        font-size:1.2rem; /*15px*/
+        font-size:1.1rem; /*15px*/
     }
 
     /*#encabezado{
@@ -185,10 +185,6 @@ footer{
         top: 0;
         z-index: 1000;
     }*/
-    
-    ul#opciones li a{ /*nuevo*/
-        font-size: 0.6rem; /*10px*/
-    }
 
     #opcion{ /*nuevo*/
         font-size: 1rem; /*17px*/
@@ -306,8 +302,8 @@ footer{
     }
 
     .container{
-        margin-top: 3.75; /*para que toda la pag baje y se vea el menu completo*/
-    }/*60*/
+        margin-top: 60px; /*para que toda la pag baje y se vea el menu completo*/
+    }
 
     #titulo{
         font-size: 2.5rem; /*48px*/
@@ -411,7 +407,7 @@ footer{
     }
 
     ul#opciones li a{
-        font-size: 1.3rem; /*21px*/
+        font-size: 1.1rem; /*21px*/
     }
 
     #opcion{
