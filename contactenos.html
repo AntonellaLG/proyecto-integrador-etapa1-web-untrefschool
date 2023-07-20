@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Integrador Web UNTREFSCHOOL</title>
     <link rel="stylesheet" href="./css/contactenos.css">
-    <link rel="icon" type="img/png" href="./favicon/favicon.ico"> <!--Agrego el favicon-->
+    <link rel="icon" type="img/png" href="./favicon/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!--Para agregar los íconos de las redes sociales-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,14 +19,6 @@
                 <a href="./index.html">Volver a la página principal</a>
             </nav>
         </header>
-        <!--
-        <section id="bannerContacto">
-            <img src="./img/bannerContacto.jpg" alt="Banner">
-        </section>        
-        <section id="titulo">   
-            <h1>UntrefSchool</h1>
-        </section>
-        --> 
         <h2>Contáctenos</h2>
         <main id="formularioContacto">
             <!--En action esto es un ejemplo en donde se guardan los datos en un archivo. Ahí va la ruta en la cual vamos a guardar los datos-->
@@ -35,10 +27,6 @@
                 <form action="" method="get">
                     <div>
                         <label for="nombre">Nombre</label><span>*</span>
-                        <!--El nombre del id debe coincidir con el del for, esto es para que al seleccionar la palabra "Nombre" en la pág, me lleve a la linea para completar ese campo-->
-                        <!--Para que los datos sean obligatorios pongo required-->
-                        <!--Ayuda visual de lo que debo completar en el campo-->
-                        <!--Para limitar la cantidad de caracteres uso minlength para el minimo, maxlength para el maximo-->
                         <input class="field" type="text" name="nombre" value="" id="nombre" required placeholder="Indique su nombre" size="22px">
                     </div>
                     <br>
@@ -65,14 +53,10 @@
                     <div>
                         <label for="mensaje">Mensaje</label><span>*</span>
                         <input class="field" type="text" name="mensaje" value="" id="mensaje" required placeholder="Indique su mensaje"> 
-                        <!--size: Un número que indica cuántos caracteres de ancho debe tener el campo de entrada--> 
                     </div>
                     <br>
-                    <div class="boton-enviar"> <!--Pequeño formulario super simple-->
-                        <!--value es para ponerle un msj al borón, sino por defecto va a depender de cada navegador-->
-                        <!--Es una buena práctica-->
-                        <!--<input type="submit" value="Enviar comentarios"> Solo texto--> 
-                        <button type="submit">Enviar</button> <!--Texto e imagen. Si no pongo imagen, queda igual que el input-->
+                    <div class="boton-enviar">
+                        <button type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
