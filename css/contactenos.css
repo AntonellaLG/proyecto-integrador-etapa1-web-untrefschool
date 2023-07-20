@@ -72,6 +72,13 @@ input{
     border: solid 1px #ccc;
 }
 
+textarea{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: solid 1px #ccc;  
+}
+
 .field{
     /*300px*/
    border-radius: 20px;
