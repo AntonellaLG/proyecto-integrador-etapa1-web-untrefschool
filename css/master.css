@@ -30,30 +30,25 @@ body{
     color: #181823;
 }
 
-#encabezado{
-    display: flex;
+/*#encabezado{ NO HACE NADA
+    /*display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 60px;
+    /*height: 60px;
     padding: 10px;
-    color: #00425A;
+    /*color: #00425A
     background-color: #EFF5F5;
     position: fixed;
     top: 0;
     z-index: 1000;
-}
+}*/
 
-#menu{
-    width: 100%;
-    z-index: 1000;
-}
-
-#opciones{
+/*#opciones{
     display: flex;
     justify-content: space-between;
     text-align:center;
-}
+}*/
 
 ul#opciones li a{
     font-family: 'Poppins', sans-serif;
@@ -163,29 +158,19 @@ footer{
         font-size:0.8rem;
     }
 
-    /*#encabezado{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    /*.menu{ NO HACE NADA
+        list-style: none;
         width: 100%;
-        height: 60px;
-        padding: 10px;
-        color: #00425A;
-        background-color: #EFF5F5;
-        position: fixed;
-        top: 0;
+        display: flex;
+        flex-direction: column;
+        /*text-align:center;
+        align-items: center;
         z-index: 1000;
     }*/
 
-    #opcion{ /*nuevo*/
+    /*#opcion{ NO HACE NADA
         font-size: 1rem;
-    }
-
-    #opciones{ /*nuevo*/
-        display: flex;
-        justify-content: space-between;
-        text-align:center;
-    }
+    }*/
 
     .container{
         margin-top: 45px; /*para que toda la pag baje y se vea el menu completo*/
