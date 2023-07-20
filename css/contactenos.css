@@ -104,19 +104,13 @@ button:hover{
 }
 
 footer{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
     background-color: #181823;
-    padding: 10px;
 }
 
 #redes{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
-    padding: 10px;
 }
 
 #derechos{
@@ -141,7 +135,7 @@ footer{
     }
 
     a{
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
 
     .container{
@@ -168,17 +162,27 @@ footer{
         font-size: 0.6rem; /*10px*/
     }
 
+    footer{
+        padding: 10px;
+    }
+    
+    #redes{
+        /*width: 60%;*/
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
     .pie{
         font-size: 0.7rem;
     }
 
-    .contacto{
+    /*.contacto{
         font-size: 0.7rem;
     }
 
     i{
-        font-size: 0.6rem; /*10px*/
-    }
+        font-size: 0.6rem; /*10px
+    }*/
 
     #derechos{
         /*display: flex;
@@ -191,11 +195,15 @@ footer{
 
 @media (min-width: 768px){
     body{
-        font-size: 0.8rem; /*19px*/
+        font-size: 1.05rem; /*19px*/
         /*min-height: 100vh; para que la imagen ocupe el 100% de la ventana*/
-}
+    }
 
-    ul#opciones li a{
+    #encabezado{
+        height: 2.5rem; /*60px*/
+    }
+
+    a{
         font-size: 1rem;
     }
 
@@ -203,20 +211,43 @@ footer{
         margin-top: 60px; /*para que toda la pag baje y se vea el menu completo*/
     }
 
-    #titulo{
-        font-size: 2.3rem;
-        width: 100%;
-        margin: auto;
+    form{
+        padding: 15px;
+        width: 15.5rem;/*300px*/
+    }
+
+    span{
+        padding-left: 0.15em;
+    }
+
+    .field{
+        /*300px*/
+        width: 17rem;
+        height: 1.3rem;
+    }
+
+    button{
+        width: 30%;
+        font-size: 1rem;
+    }
+
+    footer{
+        /*display: flex;
+        justify-content: space-around;
+        text-align: center;*/
         padding: 10px;
-        top: 100px;
+    }
+    
+    #redes{
+        /*display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;*/
+        padding: 5px;
     }
 
     .pie{
         font-size: 1.1rem;
-    }
-
-    .contacto{
-        font-size: 0.8rem;
     }
 
     #derechos{
@@ -276,17 +307,27 @@ footer{
         justify-content: center;
     }*/
 
+    footer{
+        padding: 20px;
+    }
+    
+    #redes{
+        font-size: 1.3rem;
+        /*width: 30%;*/
+        padding: 10px;
+    }
+
     .pie{
         font-size: 1.5rem; /*25px*/
     }
 
-    .contacto{
-        font-size: 1.12rem; /*18px*/
+    /*.contacto{
+        font-size: 1.12rem; /*18px
     }
 
     i{
-        font-size: 1.37rem; /*22px*/
-    }
+        font-size: 1.37rem; /*22px
+    }*/
 
     /*.boton-arriba{
         background-color: #1F8A70;

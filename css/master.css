@@ -169,7 +169,7 @@ footer{
     }
 
     ul#opciones li a{
-        font-size:1.1rem; /*15px*/
+        font-size:0.8rem; /*15px*/
     }
 
     /*#encabezado{
@@ -294,7 +294,7 @@ footer{
 
 @media (min-width: 768px){ /*iPad Air hasta Surface Pro7   Nest Hub*/
     body{
-        font-size: 0.8rem; /*17px aprox*/
+        font-size: 1.05rem; /*17px aprox*/
     }
 
     ul#opciones li a{
@@ -376,7 +376,7 @@ footer{
 
     #boton-noticias{
         width: 50%;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding-top: 11px;
         padding-bottom: 11px;
         padding-left: 16px;
