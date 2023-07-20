@@ -154,22 +154,13 @@ footer{
     width: 100%;
 }
 
-/*    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    z-index: 999;*/
-
 @media (min-width: 320px){    
     body{
-        font-size: 0.8rem; /*13px*/
+        font-size: 0.8rem;
     }
 
     ul#opciones li a{
-        font-size:0.8rem; /*15px*/
+        font-size:0.8rem;
     }
 
     /*#encabezado{
@@ -187,7 +178,7 @@ footer{
     }*/
 
     #opcion{ /*nuevo*/
-        font-size: 1rem; /*17px*/
+        font-size: 1rem;
     }
 
     #opciones{ /*nuevo*/
@@ -196,13 +187,12 @@ footer{
         text-align:center;
     }
 
-
     .container{
         margin-top: 45px; /*para que toda la pag baje y se vea el menu completo*/
     }
 
     #titulo{
-        font-size: 1.1rem; /*18px*/
+        font-size: 1.1rem;
         width: 100%;
         margin: auto;
         padding: 5px;
@@ -222,9 +212,6 @@ footer{
     }
     
     #foto-escuela{
-        /*padding: 10px;
-        width: 650px;
-        height: 300px;*/
         width: 100%;
         margin: 15px;
         object-fit: cover;
@@ -241,7 +228,7 @@ footer{
 
     figcaption{
         font-size: 80%;
-        border-left: 30px; /*chequear si hace falta*/
+        border-left: 30px;
         text-align: center;
     }
 
@@ -256,7 +243,7 @@ footer{
     }
 
     .nota{
-        font-size: 0.8rem; /*13px*/
+        font-size: 0.8rem;
     }
 
     /*.foto-noticia{ /*nuevo
@@ -279,26 +266,25 @@ footer{
     }
 
     .pie{
-        font-size: 0.8rem; /*17px*/
+        font-size: 0.8rem;
     }
 
     .contacto{
-        font-size: 0.7rem; /*12px*/
+        font-size: 0.7rem;
     }
 
     #derechos{
-        font-size: 0.6rem; /*10px*/
-        /*margin-bottom: auto;*/
+        font-size: 0.6rem;
     }
 }
 
-@media (min-width: 768px){ /*iPad Air hasta Surface Pro7   Nest Hub*/
+@media (min-width: 768px){
     body{
-        font-size: 1.05rem; /*17px aprox*/
+        font-size: 1.05rem;
     }
 
     ul#opciones li a{
-        font-size: 1rem; /*20 px aprox*/
+        font-size: 1rem;
     }
 
     .container{
@@ -306,7 +292,7 @@ footer{
     }
 
     #titulo{
-        font-size: 2.5rem; /*48px*/
+        font-size: 2.5rem;
         width: 100%;
         margin: auto;
         padding: 10px;
@@ -344,7 +330,6 @@ footer{
 
     figcaption{
         font-size: 92%;
-        /*border-left: 30px;*/
         text-align: center;
     }
 
@@ -396,27 +381,26 @@ footer{
     }
 
     #derechos{
-        font-size: 0.65rem; /*15px*/
-        /*margin-bottom: auto;*/
+        font-size: 0.65rem;
     }    
 }
 
-@media (min-width: 1200px){ /*Nest Hub Max*/
+@media (min-width: 1200px){
     body{
-        font-size: 1.18rem; /*19px*/
+        font-size: 1.18rem;
     }
 
     ul#opciones li a{
-        font-size: 1.1rem; /*21px*/
+        font-size: 1.1rem;
     }
 
     #opcion{
-        font-size: 1.6rem; /*25px*/
+        font-size: 1.6rem;
     }
 
     .container{
         margin-top: 3.75rem; /*para que toda la pag baje y se vea el menu completo*/
-    }/*60px*/
+    }
 
     #titulo{
         font-size: 3rem;
@@ -457,7 +441,6 @@ footer{
 
     figcaption{
         font-size: 100%;
-        border-left: 30px; /*chequear si hace falta*/
         text-align: center;
     }
 
@@ -466,7 +449,7 @@ footer{
         grid-template-areas: repeat(3,auto);
     }
 
-    #noticia1{
+    /*#noticia1{
         grid-column: 1/2;
     }
 
@@ -480,10 +463,10 @@ footer{
 
     #noticia4{
         grid-column: 2/3;
-    }
+    }*/
 
     .nota{
-        font-size: 1.19rem; /*19px*/
+        font-size: 1.19rem;
     }
 
     .foto-noticia{
@@ -506,23 +489,14 @@ footer{
     }
 
     .pie{
-        font-size: 1.5rem; /*25px*/
+        font-size: 1.5rem;
     }
 
     .contacto{
-        font-size: 1.19rem; /*18px*/
+        font-size: 1.19rem;
     }
 
     #derechos{
-        font-size: 1rem; /*16px*/
+        font-size: 1rem;
     }
-    
-    /*    position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;;
-        padding: 10px;
-        text-align: center;
-        font-size: 14px;
-        z-index: 999;*/
 }
