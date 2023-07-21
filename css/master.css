@@ -213,7 +213,7 @@ footer{
     
     #foto-escuela{
         width: 100%;
-        margin: 15px;
+        /*margin: 15px;*/
         object-fit: cover;
     }
 
@@ -309,15 +309,22 @@ footer{
     }
 
     #nosotros{
-        width: 55%;
+        width: 60%;
     }
     
     #foto-escuela{
         padding: 10px;
-        width: 300px;
-        height: 100px;
+        width: 450px;
+        height: 250px;
         object-fit: cover;
     }
+
+    /*#foto-escuela{/*pantalla 1200px
+        padding: 10px;
+        width: 650px;
+        height: 300px;
+        object-fit: cover;
+    }*/
 
     .circulo{
         display: flex;
