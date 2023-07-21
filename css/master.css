@@ -31,9 +31,9 @@ body{
 }
 
 #encabezado{
-    /*display: flex;
+    display: flex;
     justify-content: space-around;
-    align-items: center;*/
+    align-items: center;
     width: 100%;
     height: 60px;
     padding: 10px;
@@ -246,11 +246,11 @@ footer{
         font-size: 0.8rem;
     }
 
-    /*.foto-noticia{ /*nuevo
-        width: 100%;
-        height: 225px;
+    .foto-noticia{
+        width: 16rem;
+        height: 12rem;
         object-fit: cover;
-    }*/
+    }
 
     #boton-noticias{
         width: 30%;
@@ -314,8 +314,8 @@ footer{
     
     #foto-escuela{
         padding: 10px;
-        width: 650px;
-        height: 300px;
+        width: 300px;
+        height: 100px;
         object-fit: cover;
     }
 
@@ -357,6 +357,16 @@ footer{
 
     #noticia4{
         grid-column: 2/3;
+    }
+
+    .nota{
+        font-size: 0.9rem;
+    }
+
+    .foto-noticia{
+        width: 100%;
+        height: 15rem;/*325px*/
+        object-fit: cover;
     }
 
     #boton-noticias{
@@ -455,7 +465,7 @@ footer{
 
     .foto-noticia{
         width: 100%;
-        height: 325px;
+        height: 20rem;/*325px*/
         object-fit: cover;
     }
 
