@@ -23,7 +23,7 @@ html{
 body{  
     font-family: 'Poppins', sans-serif;
     color: #00425A;
-    background-image: url("../img/fondoContacto.jpg");
+    background-image: url("../img/fondo-contacto.jpg");
     background-repeat: no-repeat;
     background-position: center center; /*posiciones en el eje x e y resp*/
     background-attachment: fixed; /*para que al scrollear no se mueva la imagen de fondo*/
