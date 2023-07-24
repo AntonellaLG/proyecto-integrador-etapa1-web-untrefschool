@@ -125,7 +125,6 @@ footer{
     text-align: center;
     align-items: center;
     color: #FC7300;
-    /*width: 100%;*/
     height: 90%;
     padding: 10px;
     bottom: 0;
@@ -165,14 +164,10 @@ footer{
     }
 
     footer{
-        /*height: 100%;
-        display: flex;
-        align-items: flex-end;*/
         padding: 10px;
     }
     
     #redes{
-        /*width: 60%;*/
         font-size: 0.8rem;
         padding: 5px;
     }
@@ -181,19 +176,8 @@ footer{
         font-size: 0.7rem;
     }
 
-    /*.contacto{
-        font-size: 0.7rem;
-    }
-
-    i{
-        font-size: 0.6rem; /*10px
-    }*/
-
     #derechos{
-        /*display: flex;
-        justify-content: center;*/
         font-size: 0.6rem;
-        /*width: 250%;*/
         margin-bottom: auto;
     }
 }
@@ -201,7 +185,6 @@ footer{
 @media (min-width: 768px){
     body{
         font-size: 1.05rem;
-        /*min-height: 100vh; para que la imagen ocupe el 100% de la ventana*/
     }
 
     #encabezado{
@@ -235,17 +218,10 @@ footer{
     }
 
     footer{
-        /*display: flex;
-        justify-content: space-around;
-        text-align: center;*/
         padding: 10px;
     }
     
     #redes{
-        /*display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 30%;*/
         padding: 5px;
     }
 
@@ -254,10 +230,7 @@ footer{
     }
 
     #derechos{
-        /*display: flex;
-        justify-content: center;*/
         font-size: 0.65rem;
-        /*width: 250%;*/
         margin-bottom: auto;
     }  
 }
@@ -277,7 +250,7 @@ footer{
     }
 
     .container{
-        margin-top: 60px; /*para que toda la pag baje y se vea el menu completo*/
+        margin-top: 60px;
     }
 
     form{
@@ -298,37 +271,18 @@ footer{
         font-size: 1.37rem;
     }
 
-    /*#boton-enviar{
-        display: flex;
-        justify-content: center;
-    }*/
-
     footer{
         padding: 20px;
     }
     
     #redes{
         font-size: 1.3rem;
-        /*width: 30%;*/
         padding: 10px;
     }
 
     .pie{
         font-size: 1.5rem;
     }
-
-    /*.contacto{
-        font-size: 1.12rem; /*18px
-    }
-
-    i{
-        font-size: 1.37rem; /*22px
-    }*/
-
-    /*.boton-arriba{
-        background-color: #1F8A70;
-        color: #EFF5F5;
-    }*/
 
     #derechos{
         font-size: 1rem;
