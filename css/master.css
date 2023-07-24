@@ -95,17 +95,8 @@ section#noticias article{
 }
 
 .foto-noticia{
-    /*display: inline-block;*/
     height: auto;
-    /*max-width: 100%;*/
-    /*vertical-align: middle;
-    border-style: none;*/
-    /*background-color: #EFF5F5;*/
-    /*box-sizing: border-box;*/
     padding: 10px;
-    /*background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;*/
 }
 
 .fecha-noticia{
@@ -163,25 +154,11 @@ footer{
         font-size:0.8rem;
     }
 
-    /*#encabezado{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-        height: 60px;
-        padding: 10px;
-        color: #00425A;
-        background-color: #EFF5F5;
-        position: fixed;
-        top: 0;
-        z-index: 1000;
-    }*/
-
-    #opcion{ /*nuevo*/
+    #opcion{
         font-size: 1rem;
     }
 
-    #opciones{ /*nuevo*/
+    #opciones{
         display: flex;
         justify-content: space-between;
         text-align:center;
@@ -213,7 +190,6 @@ footer{
     
     #foto-escuela{
         width: 100%;
-        /*margin: 15px;*/
         object-fit: cover;
     }
 
@@ -319,13 +295,6 @@ footer{
         object-fit: cover;
     }
 
-    /*#foto-escuela{/*pantalla 1200px
-        padding: 10px;
-        width: 650px;
-        height: 300px;
-        object-fit: cover;
-    }*/
-
     .circulo{
         display: flex;
         justify-content: center;
@@ -372,7 +341,7 @@ footer{
 
     .foto-noticia{
         width: 100%;
-        height: 15rem;/*325px*/
+        height: 15rem;
         object-fit: cover;
     }
 
@@ -472,7 +441,7 @@ footer{
 
     .foto-noticia{
         width: 100%;
-        height: 20rem;/*325px*/
+        height: 20rem;
         object-fit: cover;
     }
 
